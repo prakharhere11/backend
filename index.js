@@ -8,7 +8,7 @@ const app = express();
 
 const POST = 8000;//port
 
-mongoose.connect('mongodb://localhost:27017/musicverse').then(e => console.log("MongoDB Connected"));
+mongoose.connect('mongodb+srv://test-t:EIAIPD78JleAeRax@cluster-crud.bntz60r.mongodb.net/uploadedSongs').then(e => console.log("MongoDB Connected"));
 
 //middleware
 app.set("view engine","ejs");
